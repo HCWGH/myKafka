@@ -3,7 +3,10 @@ package com.kafka;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
+/**
+ * @author hcw
+ */
+@SpringBootApplication(scanBasePackages = {"com.kafka"})
 public class MyKafkaApplication {
 
     public static void main(String[] args) {
